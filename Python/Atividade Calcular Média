@@ -1,4 +1,4 @@
-#Python 
+#Python
 #Atividade Calcular Média
 def calcula_media(n1, n2): #função que calcula a media
     return (n1 + n2) / 2 #calcular e retonar a media
