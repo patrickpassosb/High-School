@@ -1,0 +1,45 @@
+#Python
+#Atividade Calcular Média
+def calcula_media(n1, n2): #função que calcula a media
+    return (n1 + n2) / 2 #calcular e retonar a media
+
+def determina_situacao(media): #função que determina a situação do aluno
+    if media >= 6: #se a media for maior ou igual a 6 o aluno sera aprovado
+        return "Aprovado"
+    elif media >= 5: #se a média for entre 5 e 6, ele está de recuperação
+        return "Recuperação"
+    else: #qualquer media que não se encaixe nas condições estabelecidas anteriormente o aluno sera reprovado
+        return "Reprovado"
+
+def valida_nota(nota_str): #função que ve se a nota é um numer entre 0 e 10
+    try:
+        nota = float(nota_str) #nota precisa ser float e não str
+        if 0 <= nota <= 10: #se a nota for menor ou igual a 0 ou menor ou igual a 10 retornar a nota mesmo
+            return nota
+        else: #se a nota for um numero que não esta entre 0 e 10 ele envia essa mensagem
+            print("Nota deve ser entre 0 e 10. Tente novamente.")
+            return None
+    except ValueError: #se ele mandar algo que não seja um numero ele manda essa mensagem
+        print("Entrada inválida. Por favor, insira um número.")
+        return None
+
+
+
+nome = input("Qual é o seu nome? ") #requisitar o nome do aluno
+while True:
+    nota1_input = input("Qual é sua nota 1? ") #requisitar a nota 1
+    nota1 = valida_nota(nota1_input) #usa a função criada para estabelcer os padrões da nota
+    if nota1 is not None: #se a nota não é None ele quebra o laço
+        break
+
+while True:
+    nota2_input = input("Qual é sua nota 2? ") #requisitar a nota 2
+    nota2 = valida_nota(nota2_input) #usa a função criada para estabelcer os padrões da nota
+    if nota2 is not None:#se a nota não é None ele quebra o laço
+        break
+
+media = calcula_media(nota1, nota2) #definir a media e usar a função para calcula-la
+situacao = determina_situacao(media) #definir a situação e usar a função para determina-la
+
+print(f"{nome} sua media é {media}") #mostrar para o aluno sua media
+print(f"{nome} você esta {situacao}") #mostrar para o aluno sua situação
