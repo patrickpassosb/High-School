@@ -1,4 +1,3 @@
--- Etapa 6: Backup e Restauração
 -- Script para backup do banco de dados (execute como admin)
 BACKUP DATABASE JogoOnlineDB
 TO DISK = 'C:\Backups\JogoOnlineDB.bak'
