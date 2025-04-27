@@ -144,3 +144,96 @@ GO
 INSERT INTO inventory (character_id, item_id, quantity)
 VALUES (10, 5, 1); -- Quantum Chip
 GO
+
+-- Insert characters using procedure
+EXEC sp_insert_character_by_name 
+    @player_id = 1,
+    @character_name = 'NeoCoder',
+    @class_name = 'Full Stack Developer',
+    @language_name = 'JavaScript',
+    @experience = 500,
+    @level = 3;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 1,
+    @character_name = 'CryptoKnight',
+    @class_name = 'Blockchain Developer',
+    @language_name = 'Solidity',
+    @experience = 800,
+    @level = 4;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 2,
+    @character_name = 'AIWanderer',
+    @class_name = 'Machine Learning Engineer',
+    @language_name = 'Python',
+    @experience = 300,
+    @level = 2;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 2,
+    @character_name = 'BitMage',
+    @class_name = 'Data Scientist',
+    @language_name = 'Python',
+    @experience = 1000,
+    @level = 5;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 3,
+    @character_name = 'StackSurfer',
+    @class_name = 'Software Engineer',
+    @language_name = 'C++',
+    @experience = 200,
+    @level = 2;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 3,
+    @character_name = 'WebShadow',
+    @class_name = 'Web3 Developer',
+    @language_name = 'JavaScript',
+    @experience = 650,
+    @level = 4;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 4,
+    @character_name = 'HackZero',
+    @class_name = 'Ethical Hacker',
+    @language_name = 'Python',
+    @experience = 720,
+    @level = 4;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 4,
+    @character_name = 'IoTBringer',
+    @class_name = 'IoT Developer',
+    @language_name = 'C++',
+    @experience = 450,
+    @level = 3;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 5,
+    @character_name = 'DataMiner',
+    @class_name = 'Data Analyst',
+    @language_name = 'SQL',
+    @experience = 270,
+    @level = 2;
+GO
+
+EXEC sp_insert_character_by_name 
+    @player_id = 5,
+    @character_name = 'DBApro',
+    @class_name = 'DBA',
+    @language_name = 'SQL',
+    @experience = 950,
+    @level = 5;
+GO
+
+
