@@ -10,7 +10,7 @@ This folder contains all the SQL scripts responsible for creating the RPGOnlineD
 - `views.sql` → Script to create database views (example: vw_character_full_info).
 - `stored_procedures.sql` → Script to create stored procedures (example: sp_insert_character_by_name, sp_level_up_character).
 - `functions.sql` → Script to create user-defined functions (example: fn_experience_to_next_level).
-
+- `indexes.sql` → Script to create strategic indexes to optimize JOIN, WHERE, and SELECT queries.
 ---
 ## 🏗️ Purpose
 
@@ -20,7 +20,7 @@ The `/schema/` folder defines the entire **database structure**, including:
 - Views (predefined data queries)
 - Stored Procedures (reusable operations)
 - Functions (custom calculations)
-
+- Indexes (Optimize searchs)
 ---
 # 📅 Execution Order
 
@@ -40,6 +40,9 @@ Run the scripts in this order:
 
 5. `views.sql`
    - Creates database views for easier querying (e.g., view full character information).
+
+6. `indexes.sql`
+   - Creates indexes for optimize searchs (Save CPU and disk usage).
   
 ---
 
