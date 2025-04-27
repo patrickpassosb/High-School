@@ -2,13 +2,15 @@
 
 This folder contains all operational SQL scripts for the RPGOnlineDB project.
 
+
+---
 ## 📂 Contents
 
 - `data.sql` → Scripts to insert initial data (players, characters, missions, items, inventory).
 - `queries.sql` → Sample SQL queries (JOINs, GROUP BY, ORDER BY, WHERE, etc.).
 - `backup_restore.sql` → Scripts to backup and restore the RPGOnlineDB database.
 - `security.sql` → Scripts to create SQL users and assign permissions.
-
+---
 ## 🛠️ Purpose
 
 The `/data/` folder concentrates all actions needed after the database structure is created.
@@ -16,7 +18,7 @@ The `/data/` folder concentrates all actions needed after the database structure
 1. Populate the database (`data.sql`).
 2. Test queries (`queries.sql`).
 3. Perform administrative tasks (`backup_restore.sql`, `security.sql`).
-
+---
 # 📅 Execution Order
 
 Run the scripts in this order:
