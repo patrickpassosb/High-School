@@ -1,3 +1,8 @@
+-- ==========================
+-- Data Insertions for RPGOnlineDB
+-- ==========================
+
+-- 1️⃣ Insert players
 INSERT INTO player (name, email, date_of_birth)
 VALUES 
 ('Alice Johnson', 'alice.johnson@email.com', '1997-05-21'),
@@ -7,7 +12,7 @@ VALUES
 ('Eduarda Almeida', 'eduarda.almeida@email.com', '1998-02-25');
 GO
 
--- Insert characters using procedure
+-- 2️⃣ Insert characters using stored procedure (needs players, classes, and languages ready)
 EXEC sp_insert_character_by_name 
     @player_id = 1,
     @character_name = 'NeoCoder',
@@ -98,6 +103,7 @@ EXEC sp_insert_character_by_name
     @level = 5;
 GO
 
+-- 3️⃣ Insert missions
 INSERT INTO mission (name, description, recommended_level, reward_btc, experience_gain)
 VALUES 
 ('Develop Your First Backend', 'Create a backend server using your selected programming language.', 1, 0.00050000, 100),
@@ -108,6 +114,7 @@ VALUES
 ('Penetration Test Simulation', 'Perform an ethical hacking simulation on a secure server.', 4, 0.00150000, 300);
 GO
 
+-- 4️⃣ Link missions to languages (language_mission)
 -- Mission 1: Develop Your First Backend
 INSERT INTO language_mission (language_id, mission_id)
 VALUES 
@@ -144,6 +151,7 @@ VALUES
 ((SELECT language_id FROM language WHERE name = 'Python'), 6);
 GO
 
+-- 5️⃣ Insert items
 INSERT INTO item (name, description, type, value_btc, bonus_strength, bonus_vitality, bonus_agility, bonus_intelligence, bonus_perception, durability)
 VALUES 
 ('Health Patch', 'Consumable patch to instantly restore CPU.', 'Consumable', 0.00010000, 0, 10, 0, 0, 0, 1),
@@ -156,54 +164,18 @@ VALUES
 ('AI NanoPotion', 'A consumable that temporarily boosts intelligence.', 'Consumable', 0.00030000, 0, 0, 0, 7, 0, 1);
 GO
 
--- Character 1: NeoCoder
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (1, 1, 2), -- Health Patch
-       (1, 3, 1); -- Code Sword
+-- 6️⃣ Insert inventory (must come last)
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (1, 1, 2); -- NeoCoder - Health Patch
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (1, 3, 1); -- NeoCoder - Code Sword
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (2, 5, 1); -- CryptoKnight - Quantum Chip
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (3, 8, 2); -- AIWanderer - AI NanoPotion
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (4, 6, 1); -- BitMage - SQL Tome
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (5, 2, 1); -- StackSurfer - Debugger Shield
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (6, 4, 1); -- WebShadow - Smart Glasses
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (7, 1, 3); -- HackZero - Health Patch
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (8, 7, 1); -- IoTBringer - IoT Drone
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (9, 6, 1); -- DataMiner - SQL Tome
+INSERT INTO inventory (character_id, item_id, quantity) VALUES (10, 5, 1); -- DBApro - Quantum Chip
 GO
 
--- Character 2: CryptoKnight
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (2, 5, 1); -- Quantum Chip
-GO
-
--- Character 3: AIWanderer
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (3, 8, 2); -- AI NanoPotion
-GO
-
--- Character 4: BitMage
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (4, 6, 1); -- SQL Tome
-GO
-
--- Character 5: StackSurfer
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (5, 2, 1); -- Debugger Shield
-GO
-
--- Character 6: WebShadow
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (6, 4, 1); -- Smart Glasses
-GO
-
--- Character 7: HackZero
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (7, 1, 3); -- Health Patch
-GO
-
--- Character 8: IoTBringer
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (8, 7, 1); -- IoT Drone
-GO
-
--- Character 9: DataMiner
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (9, 6, 1); -- SQL Tome
-GO
-
--- Character 10: DBApro
-INSERT INTO inventory (character_id, item_id, quantity)
-VALUES (10, 5, 1); -- Quantum Chip
-GO
-
+-- ✅ Data insertion complete
