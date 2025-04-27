@@ -441,5 +441,36 @@ JOIN item i ON inv.item_id = i.item_id
 ORDER BY c.name, i.name;
 GO
 
+-- Backup the RPGOnlineDB database
+BACKUP DATABASE RPGOnlineDB
+TO DISK = 'C:\SQLBackups\RPGOnlineDB_backup.bak'
+WITH FORMAT, 
+     MEDIANAME = 'RPGOnlineDBBackup',
+     NAME = 'Full Backup of RPGOnlineDB';
+GO
+
+-- Restore the RPGOnlineDB database
+RESTORE DATABASE RPGOnlineDB_Restore
+FROM DISK = 'C:\SQLBackups\RPGOnlineDB_backup.bak'
+WITH MOVE 'RPGOnlineDB' TO 'C:\SQLBackups\RPGOnlineDB_Restore.mdf',
+     MOVE 'RPGOnlineDB_log' TO 'C:\SQLBackups\RPGOnlineDB_Restore.ldf',
+     REPLACE;
+GO
 
 
+-- Create a login for the SQL Server
+CREATE LOGIN game_reader
+WITH PASSWORD = 'StrongPassword123!';
+GO
+
+-- Create a user inside the database
+USE RPGOnlineDB;
+GO
+
+CREATE USER game_reader FOR LOGIN game_reader;
+GO
+
+-- Grant only SELECT permission on specific tables
+GRANT SELECT ON player TO game_reader;
+GRANT SELECT ON mission TO game_reader;
+GO
