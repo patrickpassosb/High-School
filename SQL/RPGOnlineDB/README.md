@@ -13,10 +13,10 @@ This project is a database for an online RPG game. It handles players, character
 ## 🛠️ How to Use
 1. Create the database (`create_database.sql` inside `/schema/`)
 2. Run all table creation scripts (`/schema/tables.sql`)
-3.  Run stored procedures and functions (`/schema/stored_procedures.sql` and `/schema/functions.sql`)
+3. Run stored procedures and functions (`/schema/stored_procedures.sql` and `/schema/functions.sql`)
 4. Insert seed data (`/data/data.sql`)
 5. Execute security setup (`/data/security.sql`)
-6.. (Optional) Backup or restore the database (`/data/backup_restore.sql`)
+6. Backup or restore the database (`/data/backup_restore.sql`)
 
 ## 📚 Features
 - Manage players and characters
