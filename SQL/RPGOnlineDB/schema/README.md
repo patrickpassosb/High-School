@@ -19,15 +19,32 @@ The `/schema/` folder defines the entire **database structure**, including:
 - Stored Procedures (reusable operations)
 - Functions (custom calculations)
 
-## 🚀 Usage Order
+# 📅 Execution Order
 
-1. Run `create_database.sql` to create the database.
-2. Run `tables.sql` to create all the tables.
-3. Run `functions.sql` to create functions.
-4. Run `stored_procedures.sql` to create procedures.
-5. Run `views.sql` to create views.
+Run the scripts in this order:
 
-## 📚 Notes
+1. `create_database.sql`
+   - Creates the database `RPGOnlineDB`.
 
-- The creation order matters because views, functions, and procedures depend on the tables.
-- After creating the structure, you can proceed to insert data and use the system.
+2. `tables.sql`
+   - Creates all necessary tables (players, characters, items, missions, etc.).
+
+3. `functions.sql`
+   - Creates utility functions (e.g., calculating experience needed for the next level).
+
+4. `stored_procedures.sql`
+   - Creates stored procedures (e.g., inserting characters by name, leveling up characters).
+
+5. `views.sql`
+   - Creates database views for easier querying (e.g., view full character information).
+  
+
+# 🔎 Tips
+- Always run scripts **one by one** to easily track errors if they occur.
+- Make sure you are connected to the correct SQL Server instance.
+- After executing this folder, the database structure will be ready for inserting data.
+
+---
+
+# 🌐 Related
+After finishing this step, move to the `/data/` folder to insert sample data, configure security, and perform backup/restore operations.
