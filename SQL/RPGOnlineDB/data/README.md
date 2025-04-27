@@ -17,14 +17,36 @@ The `/data/` folder concentrates all actions needed after the database structure
 2. Test queries (`queries.sql`).
 3. Perform administrative tasks (`backup_restore.sql`, `security.sql`).
 
-## 🚀 Usage Order
+📅 Execution Order
 
-1. Run `data.sql` to insert initial records.
-2. Run `queries.sql` to explore and validate data.
-3. Run `security.sql` to configure access restrictions.
-4. Run `backup_restore.sql` to create or recover backups.
+Run the scripts in this order:
 
-## 📚 Notes
+data.sql
 
-- This structure is kept **simple** for easy access and project clarity.
-- If the project grows bigger, these scripts can later be split into individual folders (`/queries/`, `/security/`, etc.).
+Inserts sample data (players, characters, items, missions, inventory).
+
+queries.sql
+
+Provides sample queries to explore the data (using JOIN, GROUP BY, ORDER BY, WHERE, and aggregations).
+
+security.sql
+
+Creates a read-only SQL user and grants SELECT permissions on specific tables.
+
+backup_restore.sql
+
+Provides scripts to perform a full backup and a restore of the database.
+
+🔎 Tips
+
+Execute each script separately to ensure that the previous data is properly inserted before running queries.
+
+Only run backup_restore.sql after inserting and verifying that all data is correct.
+
+If you encounter foreign key errors, verify that characters and missions are inserted before inserting inventory items.
+
+🌐 Related
+
+Make sure you have already executed all scripts from the /schema/ folder before running these.
+
+The /data/ folder completes your database with real working content and prepares it for production or testing environments.
