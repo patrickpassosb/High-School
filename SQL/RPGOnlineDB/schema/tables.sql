@@ -12,6 +12,32 @@ CREATE TABLE class (
 );
 GO
 
+-- Insert basic languages
+INSERT INTO language (name)
+VALUES 
+('Python'),
+('JavaScript'),
+('Solidity'),
+('C++'),
+('SQL');
+GO
+
+-- Insert basic classes
+INSERT INTO class (name)
+VALUES 
+('DBA'),
+('Machine Learning Engineer'),
+('Software Engineer'),
+('Game Developer'),
+('Full Stack Developer'),
+('IoT Developer'),
+('Web3 Developer'),
+('Blockchain Developer'),
+('Data Scientist'),
+('Ethical Hacker'),
+('Data Analyst');
+GO
+
 -- Table: player
 CREATE TABLE player (
     player_id INT PRIMARY KEY IDENTITY(1,1),
