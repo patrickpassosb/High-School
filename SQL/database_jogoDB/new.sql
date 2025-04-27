@@ -491,3 +491,29 @@ JOIN class cl ON c.class_id = cl.class_id
 JOIN language l ON c.language_id = l.language_id;
 GO
 
+CREATE FUNCTION fn_experience_to_next_level
+(
+    @current_level INT
+)
+RETURNS INT
+AS
+BEGIN
+    RETURN (@current_level * 200); -- simple formula (example)
+END;
+GO
+
+CREATE PROCEDURE sp_level_up_character
+    @character_id INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE character
+    SET 
+        level = level + 1,
+        experience = 0 -- reset experience after level up (optional)
+    WHERE 
+        character_id = @character_id;
+END;
+GO
+
