@@ -17,36 +17,31 @@ The `/data/` folder concentrates all actions needed after the database structure
 2. Test queries (`queries.sql`).
 3. Perform administrative tasks (`backup_restore.sql`, `security.sql`).
 
-📅 Execution Order
+# 📅 Execution Order
 
 Run the scripts in this order:
 
-data.sql
+1. `data.sql`
+   - Inserts sample data (players, characters, items, missions, inventory).
 
-Inserts sample data (players, characters, items, missions, inventory).
+2. `queries.sql`
+   - Provides sample queries to explore the data (using JOIN, GROUP BY, ORDER BY, WHERE, and aggregations).
 
-queries.sql
+3. `security.sql`
+   - Creates a read-only SQL user and grants SELECT permissions on specific tables.
 
-Provides sample queries to explore the data (using JOIN, GROUP BY, ORDER BY, WHERE, and aggregations).
+4. `backup_restore.sql`
+   - Provides scripts to perform a full backup and a restore of the database.
 
-security.sql
+---
 
-Creates a read-only SQL user and grants SELECT permissions on specific tables.
+# 🔎 Tips
+- Execute each script separately to ensure that the previous data is properly inserted before running queries.
+- Only run `backup_restore.sql` after inserting and verifying that all data is correct.
+- If you encounter foreign key errors, verify that characters and missions are inserted before inserting inventory items.
 
-backup_restore.sql
+---
 
-Provides scripts to perform a full backup and a restore of the database.
-
-🔎 Tips
-
-Execute each script separately to ensure that the previous data is properly inserted before running queries.
-
-Only run backup_restore.sql after inserting and verifying that all data is correct.
-
-If you encounter foreign key errors, verify that characters and missions are inserted before inserting inventory items.
-
-🌐 Related
-
-Make sure you have already executed all scripts from the /schema/ folder before running these.
-
-The /data/ folder completes your database with real working content and prepares it for production or testing environments.
+# 🌐 Related
+Make sure you have already executed all scripts from the `/schema/` folder **before** running these.
+The `/data/` folder completes your database with real working content and prepares it for production or testing environments.
