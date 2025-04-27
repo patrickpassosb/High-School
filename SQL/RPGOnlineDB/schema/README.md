@@ -2,6 +2,7 @@
 
 This folder contains all the SQL scripts responsible for creating the RPGOnlineDB database structure.
 
+---
 ## 📂 Contents
 
 - `create_database.sql` → Script to create the RPGOnlineDB database.
@@ -10,6 +11,7 @@ This folder contains all the SQL scripts responsible for creating the RPGOnlineD
 - `stored_procedures.sql` → Script to create stored procedures (example: sp_insert_character_by_name, sp_level_up_character).
 - `functions.sql` → Script to create user-defined functions (example: fn_experience_to_next_level).
 
+---
 ## 🏗️ Purpose
 
 The `/schema/` folder defines the entire **database structure**, including:
@@ -19,6 +21,7 @@ The `/schema/` folder defines the entire **database structure**, including:
 - Stored Procedures (reusable operations)
 - Functions (custom calculations)
 
+---
 # 📅 Execution Order
 
 Run the scripts in this order:
@@ -38,6 +41,7 @@ Run the scripts in this order:
 5. `views.sql`
    - Creates database views for easier querying (e.g., view full character information).
   
+---
 
 # 🔎 Tips
 - Always run scripts **one by one** to easily track errors if they occur.
