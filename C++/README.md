@@ -1,1 +1,6 @@
-I have this repository to post my high school assigments in the subject C++
+# C++
+
+This folder contains my C++ assignments and programming exercises from school.
+
+I use C++ to learn about logic, performance, and systems programming.
+
