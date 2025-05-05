@@ -12,11 +12,12 @@ This project applies best practices of database design, stored procedures, funct
 RPGOnlineDB/
 │
 ├── schema/
-│   ├— create_database.sql         → Create the database
+│   ├— create_database.sql          → Create the database
 │   ├— tables.sql                   → Create all tables
 │   ├— functions.sql                → Create utility functions
 │   ├— stored_procedures.sql        → Create stored procedures
-│   └— views.sql                    → Create database views
+│   ├— views.sql                    → Create database views
+│   └— indexes.sql                  → Create database indexes
 │
 ├── data/
     ├— data.sql                     → Insert sample data (players, characters, missions, items, inventory)
@@ -37,7 +38,8 @@ RPGOnlineDB/
 - `functions.sql`
 - `stored_procedures.sql`
 - `views.sql`
-
+- `indexes.sql`
+  
 📌 *This will create the entire database structure (tables, procedures, functions, and views).*
 
 ---
