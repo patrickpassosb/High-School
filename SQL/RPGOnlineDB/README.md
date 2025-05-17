@@ -54,6 +54,10 @@ RPGOnlineDB/
 
 ---
 
+![ERD of RPGOnlineDB](docs/erd_rpgonlinedb.png "Diagram ERD of RPGOnlineDB")
+
+---
+
 # 🛡️ Requirements
 - **SQL Server** installed (Developer or Express Edition is enough)
 - A SQL Client like **SQL Server Management Studio (SSMS)** or **Azure Data Studio**
