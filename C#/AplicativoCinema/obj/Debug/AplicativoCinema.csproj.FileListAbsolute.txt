@@ -19,3 +19,18 @@ C:\Users\PatrickPassosAgostin\OneDrive - ASSOCIAÇÃO EDUCACIONAL PENTAGONO\3 - 
 C:\Users\PatrickPassosAgostin\OneDrive - ASSOCIAÇÃO EDUCACIONAL PENTAGONO\3 - ano\C#\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.CoreCompileInputs.cache
 C:\Users\PatrickPassosAgostin\OneDrive - ASSOCIAÇÃO EDUCACIONAL PENTAGONO\3 - ano\C#\AplicativoCinema\obj\Debug\AplicativoCinema.exe
 C:\Users\PatrickPassosAgostin\OneDrive - ASSOCIAÇÃO EDUCACIONAL PENTAGONO\3 - ano\C#\AplicativoCinema\obj\Debug\AplicativoCinema.pdb
+C:\Users\PatrickPassosAgostin\OneDrive - ASSOCIAÇÃO EDUCACIONAL PENTAGONO\3 - ano\C#\AplicativoCinema\obj\Debug\AplicativoCinema.FmGenero.resources
+C:\Users\passs\Downloads\AplicativoCinema\bin\Debug\AplicativoCinema.exe.config
+C:\Users\passs\Downloads\AplicativoCinema\bin\Debug\AplicativoCinema.exe
+C:\Users\passs\Downloads\AplicativoCinema\bin\Debug\AplicativoCinema.pdb
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.AssemblyReference.cache
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.exe.config
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.FmGenero.resources
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.FmPrincipal.resources
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.FmUsuario.resources
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.Properties.Resources.resources
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.GenerateResource.cache
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.CoreCompileInputs.cache
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.exe
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.pdb
+C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.FmCinema.resources

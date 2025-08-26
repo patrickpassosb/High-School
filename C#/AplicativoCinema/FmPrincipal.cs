@@ -27,5 +27,16 @@ namespace AplicativoCinema
             FmUsuario fmusuario = new FmUsuario();
             fmusuario.Show();
         }
+
+        private void gêneroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FmGenero fmGenero = new FmGenero();
+            fmGenero.Show();
+        }
+
+        private void cinemasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

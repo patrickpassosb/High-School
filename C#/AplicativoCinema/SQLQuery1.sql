@@ -11,3 +11,20 @@ CREATE TABLE Usuario (
    PRIMARY KEY CLUSTERED (idUsuario ASC)
 );
 GO
+
+CREATE TABLE Cinema (
+	idCinema INT IDENTITY (1, 1) NOT NULL,
+	nmCinema VARCHAR (20) NOT NULL,
+	dsEndereço VARCHAR (150) NOT NULL,
+	mrSales INT NOT NULL,
+	PRIMARY KEY CLUSTERED (idCinema ASC)
+);
+GO
+
+CREATE TABLE Genero {
+idGenero INT IDENTITY (1, 1) NOT NULL,
+idGenero VARCHAR (20) NOT NULL,
+
+PRIMARY KEY CLUSTERED (idGenero ASC)
+};
+GO

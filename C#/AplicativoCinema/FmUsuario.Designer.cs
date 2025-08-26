@@ -120,14 +120,19 @@
             this.btExcluir.TabIndex = 8;
             this.btExcluir.Text = "EXCLUIR";
             this.btExcluir.UseVisualStyleBackColor = true;
+            this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
             // 
             // dgUsuario
             // 
+            this.dgUsuario.AllowUserToAddRows = false;
+            this.dgUsuario.AllowUserToDeleteRows = false;
             this.dgUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgUsuario.Location = new System.Drawing.Point(18, 31);
+            this.dgUsuario.Location = new System.Drawing.Point(18, 27);
             this.dgUsuario.Name = "dgUsuario";
+            this.dgUsuario.ReadOnly = true;
             this.dgUsuario.Size = new System.Drawing.Size(365, 281);
             this.dgUsuario.TabIndex = 9;
+            this.dgUsuario.DoubleClick += new System.EventHandler(this.dgUsuario_DoubleClick);
             // 
             // menuStrip1
             // 
@@ -144,6 +149,7 @@
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
             this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.usuáriosToolStripMenuItem.Text = "Usuários";
+            this.usuáriosToolStripMenuItem.Click += new System.EventHandler(this.usuáriosToolStripMenuItem_Click);
             // 
             // FmUsuario
             // 

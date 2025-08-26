@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|c:\\users\\passs\\downloads\\aplicativocinema\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|c:\\users\\passs\\downloads\\aplicativocinema\\fmcinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmcinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmcinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmcinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmgenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmgenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\passs\\Downloads\\AplicativoCinema\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +35,12 @@
       "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\passs\\Downloads\\AplicativoCinema\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|C:\\Users\\passs\\Downloads\\AplicativoCinema\\fmgenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72C4A4EF-EF07-41B9-BC5C-BA1B120420CA}|AplicativoCinema.csproj|solutionrelative:fmgenero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,47 +50,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SQLQuery1.sql",
-              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\SQLQuery1.sql",
-              "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\SQLQuery1.sql",
-              "RelativeToolTip": "SQLQuery1.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-04T10:35:17.553Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FmUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmUsuario.cs",
-              "RelativeDocumentMoniker": "FmUsuario.cs",
-              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmUsuario.cs",
-              "RelativeToolTip": "FmUsuario.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEAAAABPAAAAAAAAAA==",
+              "Title": "FmGenero.cs",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmGenero.cs",
+              "RelativeDocumentMoniker": "FmGenero.cs",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmGenero.cs",
+              "RelativeToolTip": "FmGenero.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wCwAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T11:42:39.884Z"
+              "WhenOpened": "2025-08-26T08:16:57.972Z",
+              "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-12T11:44:30.322Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FmCinema.cs",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmCinema.cs",
+              "RelativeDocumentMoniker": "FmCinema.cs",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmCinema.cs",
+              "RelativeToolTip": "FmCinema.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T08:34:24.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FmCinema.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmCinema.cs",
+              "RelativeDocumentMoniker": "FmCinema.cs",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmCinema.cs [Design]",
+              "RelativeToolTip": "FmCinema.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T08:19:01.522Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FmGenero.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmGenero.cs",
+              "RelativeDocumentMoniker": "FmGenero.cs",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmGenero.cs [Design]",
+              "RelativeToolTip": "FmGenero.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T08:16:06.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FmUsuario.cs [Design]",
               "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmUsuario.cs",
               "RelativeDocumentMoniker": "FmUsuario.cs",
@@ -85,26 +118,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FmPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmPrincipal.cs",
               "RelativeDocumentMoniker": "FmPrincipal.cs",
-              "ToolTip": "C:\\Users\\PatrickPassosAgostin\\OneDrive - ASSOCIA\u00C7\u00C3O EDUCACIONAL PENTAGONO\\3 - ano\\C#\\AplicativoCinema\\FmPrincipal.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\PatrickPassosAgostin\\OneDrive - ASSOCIA\u00C7\u00C3O EDUCACIONAL PENTAGONO\\3 - ano\\C#\\AplicativoCinema\\FmPrincipal.cs [Design]",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmPrincipal.cs [Design]",
+              "RelativeToolTip": "FmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T10:40:31.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "FmUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmUsuario.cs",
+              "RelativeDocumentMoniker": "FmUsuario.cs",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmUsuario.cs",
+              "RelativeToolTip": "FmUsuario.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:42:39.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmPrincipal.cs",
               "RelativeDocumentMoniker": "FmPrincipal.cs",
               "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\FmPrincipal.cs",
               "RelativeToolTip": "FmPrincipal.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T11:24:30.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-04T10:35:17.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\passs\\Downloads\\AplicativoCinema\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-12T11:44:30.322Z"
             }
           ]
         }

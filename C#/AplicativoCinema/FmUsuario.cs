@@ -25,6 +25,34 @@ namespace AplicativoCinema
         private void FmUsuario_Load(object sender, EventArgs e)
         {
             strConn = ConfigurationManager.AppSettings["StringConnection"];
+            CarregaGrid();
+        }
+
+        private void CarregaGrid()
+        {
+            SqlConnection con = new SqlConnection(strConn);
+            try
+            {
+                con.Open();
+                SqlDataAdapter dAdapt =  new SqlDataAdapter("SELECT * FROM USUARIO ", con);
+                DataTable dTable = new DataTable();
+                dAdapt.Fill(dTable);
+                dgUsuario.DataSource = dTable;
+                dgUsuario.Columns["idUsuario"].HeaderText = "ID";
+                dgUsuario.Columns["idUsuario"].Width = 50;
+                dgUsuario.Columns["Usuario"].HeaderText = "Usuário";
+                dgUsuario.Columns["Senha"].HeaderText = "Senha";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Problemas no acesso aos dados.");
+            }
+            finally
+            {
+                // Sempre fechar a conexao !
+                con.Close();
+                con.Dispose();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -72,6 +100,60 @@ namespace AplicativoCinema
             txbID.Clear();
             txbUsuario.Clear();
             txbSenha.Clear();
+
+            CarregaGrid();
+        }
+
+        private void dgUsuario_DoubleClick(object sender, EventArgs e)
+        {
+            if (dgUsuario.SelectedRows.Count > 0)
+            {
+                //var column = dgUsuario.Columns["idUsuario"];
+                //txbID.Text = dgUsuario.CurrentRow.Cells[column.Index].Value.ToString();
+                txbID.Text = dgUsuario.CurrentRow.Cells[0].Value.ToString();
+                txbUsuario.Text = dgUsuario.CurrentRow.Cells[1].Value.ToString();
+                txbSenha.Text = dgUsuario.CurrentRow.Cells[2].Value.ToString();
+                txbUsuario.Enabled = false;
+            }
+        }
+
+        private void btExcluir_Click(object sender, EventArgs e)
+        {
+            if (txbID.Text == "")
+            {
+                MessageBox.Show("Selecione um usuário");
+                return;
+            }
+            SqlConnection con = new SqlConnection(strConn);
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+                cmd.CommandText = "DELETE FROM USUARIO  WHERE idUsuario = @idUsuario";
+                cmd.Parameters.AddWithValue("@idUsuario", txbID.Text);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Operação concluída com sucesso !");
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Problemas com a exclusão." + erro);
+            }
+            finally
+            {
+                con.Close();
+                con.Dispose();
+            }
+            txbID.Clear();
+            txbUsuario.Clear();
+            txbSenha.Clear();
+            txbUsuario.Enabled = true;
+            CarregaGrid();
+        }
+
+        private void usuáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

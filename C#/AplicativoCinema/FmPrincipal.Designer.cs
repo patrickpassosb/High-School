@@ -80,7 +80,8 @@
             // 
             this.gêneroToolStripMenuItem.Name = "gêneroToolStripMenuItem";
             this.gêneroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gêneroToolStripMenuItem.Text = "Gênero";
+            this.gêneroToolStripMenuItem.Text = "Gêneros";
+            this.gêneroToolStripMenuItem.Click += new System.EventHandler(this.gêneroToolStripMenuItem_Click);
             // 
             // filmesToolStripMenuItem
             // 
@@ -93,6 +94,7 @@
             this.cinemasToolStripMenuItem.Name = "cinemasToolStripMenuItem";
             this.cinemasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cinemasToolStripMenuItem.Text = "Cinemas";
+            this.cinemasToolStripMenuItem.Click += new System.EventHandler(this.cinemasToolStripMenuItem_Click);
             // 
             // salasToolStripMenuItem
             // 
@@ -113,19 +115,19 @@
             // publicoToolStripMenuItem
             // 
             this.publicoToolStripMenuItem.Name = "publicoToolStripMenuItem";
-            this.publicoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.publicoToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.publicoToolStripMenuItem.Text = "Publico";
             // 
             // generoToolStripMenuItem
             // 
             this.generoToolStripMenuItem.Name = "generoToolStripMenuItem";
-            this.generoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.generoToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.generoToolStripMenuItem.Text = "Genero";
             // 
             // horarioToolStripMenuItem
             // 
             this.horarioToolStripMenuItem.Name = "horarioToolStripMenuItem";
-            this.horarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.horarioToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.horarioToolStripMenuItem.Text = "Horario";
             // 
             // relatoriosToolStripMenuItem
