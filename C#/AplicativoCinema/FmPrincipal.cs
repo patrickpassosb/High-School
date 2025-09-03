@@ -36,7 +36,8 @@ namespace AplicativoCinema
 
         private void cinemasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FmCinema fmCinema = new FmCinema();
+            fmCinema.Show();
         }
     }
 }

@@ -68,8 +68,26 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Humor",
-            "Ação"});
+            "Ação",
+            "Aventura",
+            "Animação",
+            "Comédia",
+            "Crime",
+            "Documentário",
+            "Drama",
+            "Família",
+            "Fantasia",
+            "Ficção Científica",
+            "Histórico",
+            "Horror/Terror",
+            "Mistério",
+            "Musical",
+            "Romance",
+            "Suspense/Thriller",
+            "Western/Faroeste",
+            "Guerra",
+            "Biografia",
+            "Esportes"});
             this.comboBox1.Location = new System.Drawing.Point(12, 327);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);

@@ -34,3 +34,17 @@ C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.Core
 C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.exe
 C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.pdb
 C:\Users\passs\Downloads\AplicativoCinema\obj\Debug\AplicativoCinema.FmCinema.resources
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\bin\Debug\AplicativoCinema.exe.config
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\bin\Debug\AplicativoCinema.exe
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\bin\Debug\AplicativoCinema.pdb
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.AssemblyReference.cache
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.exe.config
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.FmGenero.resources
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.FmPrincipal.resources
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.FmUsuario.resources
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.FmCinema.resources
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.Properties.Resources.resources
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.GenerateResource.cache
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.csproj.CoreCompileInputs.cache
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.exe
+C:\Users\passs\Documents\GitHub\High-School\C#\AplicativoCinema\obj\Debug\AplicativoCinema.pdb
