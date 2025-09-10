@@ -1,4 +1,4 @@
-CREATE TABLE Fornecedores (
+CREATE TABLE Suppliers (
 	Supplier_ID INT PRIMARY KEY IDENTITY(1,1),
 	Name NVARCHAR(35) NOT NULL UNIQUE,
 	Contact_phone NVARCHAR(100) NOT NULL UNIQUE,
@@ -26,7 +26,7 @@ CREATE TABLE Products (
 	Stock_Quantity INT NOT NULL,
 	Reorder_Level INT NOT NULL,
 	CONSTRAINT FK_Supplier FOREIGN KEY (Supplier_ID)
-		REFERENCES Fornecedores(Supplier_ID),
+		REFERENCES Suppliers(Supplier_ID),
 	CONSTRAINT FK_Category FOREIGN KEY (Category_ID)
 		REFERENCES Product_Categories(Category_ID)
 );
@@ -67,4 +67,5 @@ CREATE TABLE Inventory (
         REFERENCES Products(Product_ID)      -- Linking to the Products table
 );
 GO
+
 
