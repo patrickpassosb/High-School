@@ -1,7 +1,7 @@
 -- =============================
 -- 1. Suppliers
 -- =============================
-INSERT INTO Fornecedores (Name, Contact_phone, Contact_email, Address) VALUES
+INSERT INTO Suppliers (Name, Contact_phone, Contact_email, Address) VALUES
 ('Sony', '1111-1111', 'contact@sony.com', 'Tokyo, Japan'),
 ('Microsoft', '2222-2222', 'contact@microsoft.com', 'Redmond, USA'),
 ('Nintendo', '3333-3333', 'contact@nintendo.com', 'Kyoto, Japan'),
@@ -102,3 +102,4 @@ VALUES
 INSERT INTO Products (Supplier_ID, Category_ID, Name, Price, Description, Stock_Quantity, Reorder_Level)
 VALUES
 (5, 17, 'Corsair Hydro Series H100i', 899.90, 'Liquid CPU cooler', 18, 4);
+
