@@ -243,4 +243,4 @@ To set up the database:
 ## License
 This project is for educational purposes and is released under the MIT License. Feel free to use, modify, or distribute.
 
-For questions or contributions, contact [your email or GitHub handle].
+For questions or contributions, contact @patrickpassosb.
