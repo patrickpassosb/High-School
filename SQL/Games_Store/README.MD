@@ -96,7 +96,7 @@ Tracks detailed stock information with timestamps.
 
 The following ER diagram illustrates the relationships between tables:
 
-![ER Diagram](er_diagram.png) <!-- Replace with actual image path if hosting on GitHub -->
+![ERD of Games_Store](ER_diagram "Diagram ERD of Games_Store")
 
 - **Products** is central, linking to **Suppliers**, **Product_Categories**, and **Inventory**.
 - **Product_Categories** supports self-referencing for hierarchies.
